@@ -14,6 +14,7 @@
 		72ECA9601D1310C200066852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ECA95E1D1310C200066852 /* LaunchScreen.storyboard */; };
 		72ECA96B1D1310C200066852 /* TableTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECA96A1D1310C200066852 /* TableTestTests.swift */; };
 		72ECA9761D1310C200066852 /* TableTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECA9751D1310C200066852 /* TableTestUITests.swift */; };
+		72ECA9841D13130000066852 /* FruitTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECA9831D13130000066852 /* FruitTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		72ECA9711D1310C200066852 /* TableTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72ECA9751D1310C200066852 /* TableTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTestUITests.swift; sourceTree = "<group>"; };
 		72ECA9771D1310C200066852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72ECA9831D13130000066852 /* FruitTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				72ECA9551D1310C200066852 /* AppDelegate.swift */,
 				72ECA9571D1310C200066852 /* ViewController.swift */,
+				72ECA9831D13130000066852 /* FruitTableCell.swift */,
 				72ECA9591D1310C200066852 /* Main.storyboard */,
 				72ECA95C1D1310C200066852 /* Assets.xcassets */,
 				72ECA95E1D1310C200066852 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72ECA9581D1310C200066852 /* ViewController.swift in Sources */,
+				72ECA9841D13130000066852 /* FruitTableCell.swift in Sources */,
 				72ECA9561D1310C200066852 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
