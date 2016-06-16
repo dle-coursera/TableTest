@@ -102,6 +102,10 @@ class ViewController: UITableViewController {
         
         tableView.estimatedRowHeight = 44
         tableView.rowHeight = UITableViewAutomaticDimension
+
+        // Reloading a row with automatic section header height causes the app to crash
+        tableView.estimatedSectionHeaderHeight = 44
+        tableView.sectionHeaderHeight = UITableViewAutomaticDimension
     }
     
     override func didReceiveMemoryWarning() {
